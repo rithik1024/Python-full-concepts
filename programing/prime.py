@@ -8,11 +8,15 @@ for num in range(1,limit+1):
     if c==2:
         print(num)
     c=0
-# i=int(input('enter the number:'))10
+#----------------------------------------------
 
-# if 0<i<4:
-#     print('prime')
-# elif i%2!=0 and i%3!=0:
-#     print("prime")
+# num=int(input("enter the number:"))
+# c=0
+# for i in range(1,num+1):
+#     if num%i==0:
+#         c+=1
+# if c==2:
+#         print("prime number")
 # else:
-#     print("Not a prime")
+#         print("not a prime ")
+# c=0
