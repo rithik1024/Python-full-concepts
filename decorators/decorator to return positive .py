@@ -7,4 +7,4 @@ def positive(func):
 def sub(a,b,c):
     return a-b-c
 
-print(sub())
+print(sub(2,3,4))
