@@ -22,8 +22,6 @@ def fact1():
 print(fact5())
 
 def rfact(n):
-    if n<=0:
-        return None 
     #base case
     if n==1:
         return 1
