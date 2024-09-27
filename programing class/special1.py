@@ -1,16 +1,14 @@
 #49
 num=int(input("enter the number:"))
-i=0
 add=0
 mul=1
-hold=num
-for i in range(0,len(str(hold))):
-    temp=num%10
-    add+=temp
-    mul*=temp
+temp=num
+while num>0:
+    add+=num%10
+    mul*=num%10
     num=num//10
 print(add,mul)
-if (add+mul)==hold:
+if (add+mul)==temp:
     print("special number")
 else:
     print("not a special number")

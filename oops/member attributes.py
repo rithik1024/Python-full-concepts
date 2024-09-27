@@ -13,12 +13,12 @@ class student:
         f"my institue is {student.inst}")    
         
 obj=student('Rithik',21,6238961518)
-print(obj.details())
+# print(obj.details())
 
-# print(student.inst)
-# print(obj.inst)
-# print(obj.name)
+print(student.inst)
+print(obj.inst)
+print(obj.name)
 #print(student.name)   we cant acess instance attrubute by using class name 
-print("-----")
-print(student('rithik',23,234).details())#calling detals  function in class by using class name -----no prefered---
+# print("-----")
+# print(student('rithik',23,234).details())#calling detals  function in class by using class name -----no prefered---
 
