@@ -1,8 +1,7 @@
-s=int(9)
-print(str(s))
-new="0123456789"
-print(new[4:0:-2])
-print(dir(new))
-l=[12,0]
-print(','.join(new))
-print(new.index('4'))   
+num=15
+for i in range(5,0,-1):
+    print(" "*(5-i),end=" ")
+    for j in range(i):
+        print(num,end=" ")
+        num-=1
+    print()

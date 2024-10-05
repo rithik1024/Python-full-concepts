@@ -1,1 +1,1 @@
-     print(sep=" ")
+while 1:
